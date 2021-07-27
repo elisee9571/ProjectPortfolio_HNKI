@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'Monument Extended';
-    src: url('MonumentExtended-Ultrabold.woff2') format('woff2'),
-        url('MonumentExtended-Ultrabold.woff') format('woff');
+    src: url('MonumentExtended-Ultrabold.woff2') format('woff2'), url('MonumentExtended-Ultrabold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -9,10 +8,16 @@
 
 @font-face {
     font-family: 'Monument Extended';
-    src: url('MonumentExtended-Regular.woff2') format('woff2'),
-        url('MonumentExtended-Regular.woff') format('woff');
+    src: url('MonumentExtended-Regular.woff2') format('woff2'), url('MonumentExtended-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'SAKURATA';
+    src: url('/font/SAKURATA.woff2') format('woff2'), url('/font/SAKURATA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

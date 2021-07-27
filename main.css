@@ -399,9 +399,6 @@ nav .subject span {
         list-style: none;
     }
     /* localisation */
-    #local {
-        height: 100vh;
-    }
     #local .container {
         display: flex;
         flex-direction: column;
