@@ -353,10 +353,11 @@ nav .subject span {
 
 @media (max-width:568px) {
     nav {
-        font-size: 12px;
+        font-size: 10px;
+        justify-content: space-between;
     }
     #hero .container h1 {
-        font-size: 80px;
+        font-size: 70px;
         font-family: 'Sakurata';
         text-shadow: 0px 0px 10px #fff;
     }
@@ -366,11 +367,14 @@ nav .subject span {
     /* about */
     #about .content .text-left {
         margin-top: 40px;
-        font-size: 30px;
+        font-size: 25px;
     }
     /* services */
     #services .content .text {
-        font-size: 28px;
+        font-size: 23px;
+    }
+    #services .content .text span {
+        font-size: 12px;
     }
     /* formation */
     #formation .content {
@@ -384,6 +388,7 @@ nav .subject span {
         height: 100%;
         width: 100%;
         margin-left: 0;
+        font-size: 14px;
     }
     #formation .content .col-2 {
         margin-top: 40px;
@@ -399,14 +404,18 @@ nav .subject span {
         list-style: none;
     }
     /* localisation */
+    #local {
+        height: 50vh;
+    }
     #local .container {
+        padding-top: 300px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
     }
     #local .container h3 {
-        font-size: 60px;
+        font-size: 50px;
         font-family: 'Monument';
         font-weight: 300;
     }
