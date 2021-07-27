@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Monument';
-    src: url('/font/MonumentExtended-Regular.woff2') format('woff2'), url('/font/MonumentExtended-Regular.woff') format('woff');
+    src: url('font/MonumentExtended-Regular.woff2') format('woff2'), url('font/MonumentExtended-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
